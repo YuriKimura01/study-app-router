@@ -6,7 +6,7 @@
 
 1. apiKey取得
 
-以下formよりapiKeyを取得
+以下formよりapiKeyを取得し`hooks.ts`内のTODO箇所に記載
 
 https://docs.google.com/forms/d/e/1FAIpQLSfkmEBqH76HLMMiCC-GPPnhcvHC9aJS86E32dOd0Z8MpY2rvQ/viewform
 
