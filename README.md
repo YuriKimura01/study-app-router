@@ -2,15 +2,7 @@
 
 ## インストールと立ち上げ
 
-任意のディレクトリで下記を実行
-
-1. apiKey取得
-
-以下formよりapiKeyを取得し`hooks.ts`内のTODO箇所に記載
-
-https://docs.google.com/forms/d/e/1FAIpQLSfkmEBqH76HLMMiCC-GPPnhcvHC9aJS86E32dOd0Z8MpY2rvQ/viewform
-
-2. clone
+1. clone
 
 ```
 git clone git@github.com:YuriKimura01/practice-app-router.git
@@ -21,6 +13,14 @@ git clone git@github.com:YuriKimura01/practice-app-router.git
 ```
 yarn install
 ```
+
+3. Harvard Art Museums の apiKey取得
+
+以下formよりapiKeyを取得し`hooks.ts`内のTODO箇所に記載
+
+https://docs.google.com/forms/d/e/1FAIpQLSfkmEBqH76HLMMiCC-GPPnhcvHC9aJS86E32dOd0Z8MpY2rvQ/viewform
+
+参考：https://github.com/harvardartmuseums/api-docs
 
 4. local の立ち上げ
 
