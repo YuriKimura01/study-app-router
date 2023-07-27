@@ -1,0 +1,26 @@
+{
+  "root": true, //PJの設定ファイルにはこれを記述する
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ], // パッケージ（一番最後に"prettier"を入れることでprettierとの競合を防止できる）
+  "plugins": ["react", "@typescript-eslint", "unused-import", "import"], // 拡張部分
+  "parserOptions": {},
+  "env": { "browser": true },
+  "globals": {},
+  "rules": {
+    "indent": ["error", 2],
+    "no-var": "error",
+    "unused-imports/no-unused-imports": "error",
+    "@typescript-eslint/consistent-type-imports": "error" // typeのimport時は import type { hoge } from "hoge" とする
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".ts", ".tsx"] // importの拡張子を指定
+      }
+    }
+  }
+}

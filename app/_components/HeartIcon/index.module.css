@@ -1,0 +1,44 @@
+.heart {
+  position: relative;
+  margin: 20px 20px 0 20px;
+  width: 12px;
+  height: 12px;
+  border: 2px solid red;
+  border-top: 0px solid transparent;
+  border-left: 1px solid transparent;
+  transform: rotate(45deg);
+}
+
+.clicked {
+  background-color: red;
+}
+
+.heart::before {
+  content: "";
+  position: absolute;
+  top: -73%;
+  width: 82%;
+  height: 74%;
+  border: 2px solid red;
+  border-bottom: 0px solid transparent;
+  border-radius: 50% 50% 0 0 / 80% 80% 0 0;
+}
+
+.clicked::before {
+  background-color: red;
+}
+
+.heart::after {
+  content: "";
+  position: absolute;
+  left: -73%;
+  width: 74%;
+  height: 82%;
+  border: 2px solid red;
+  border-right: 0px solid transparent;
+  border-radius: 80% 0 0 80% / 50% 0 0 50%;
+}
+
+.clicked::after {
+  background-color: red;
+}
