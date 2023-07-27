@@ -9,7 +9,6 @@ type Props = {
 // async書くことでSSRでfetchしてレンダリングまで完了してくれる
 export default async function InfoPage({ params }: Props) {
   const artInfoData = await fetchArtDetailInfo(params.id);
-  console.log(artInfoData, "artInfoData");
 
   return (
     <main>
