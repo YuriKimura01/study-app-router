@@ -5,13 +5,13 @@
 1. clone
 
 ```
-git clone git@github.com:YuriKimura01/practice-app-router.git
+git clone https://github.com/YuriKimura01/study-app-router.git
 ```
 
 3. パッケージのインストール
 
 ```
-yarn install
+pnpm install
 ```
 
 3. Harvard Art Museums の apiKey取得
@@ -25,7 +25,7 @@ https://docs.google.com/forms/d/e/1FAIpQLSfkmEBqH76HLMMiCC-GPPnhcvHC9aJS86E32dOd
 4. local の立ち上げ
 
 ```
-yarn dev
+pnpm dev
 ```
 
 5. localhost にアクセス
@@ -36,6 +36,7 @@ http://localhost:3000
 
 ## 使用技術
 
+- React 18.2.0
 - Next.js 13.4.10
 - TypeScript 5.1.6
 - clsx 2.0.0
